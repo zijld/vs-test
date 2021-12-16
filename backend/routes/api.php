@@ -17,6 +17,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/people/{people}', [PeopleController::class, 'show']);
+Route::get('/people', [PeopleController::class, 'index']);
+Route::get('/planet/{planet}', [PlanetController::class, 'show']);
+Route::get('/planets', [PlanetController::class, 'index']);
+
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
