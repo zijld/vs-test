@@ -1,7 +1,7 @@
 ## Vue 3 + Vite
 
 Run `npm install`
-Run `npm run serve`
+Run `npm run dev`
 
 En klik vervolgens onder `People` op de naam om de details te zien en zijn `planet`
 Houd er rekening mee dat de backend ook moet draaien op http://locahost:8000

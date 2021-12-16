@@ -3,7 +3,7 @@
 ### Installation
 
 Linux / MacOS
-Run: `cp ~/.env.example ~/.env`
+Run: `cp ./.env.example ./.env`
 Run: `composer install`
 Run: `php artisan key:generate`
 Open `.env`
@@ -48,6 +48,10 @@ Daarnaast heb gekozen voor optionele categorieën omdat ik het fijn zou vinden o
 
 `external_id` is de id uit de API
 Alle datatypes zijn `strings` aangezien die API ook `unknown` returned bij numeric velden dus i.v.m tijd even snel alles string gemaakt
+
+### API Endpoints
+
+Ik heb een export gemaakt van mijn postman
 
 ### Species
 
